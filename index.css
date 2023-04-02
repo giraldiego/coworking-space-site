@@ -72,19 +72,32 @@ h1 {
 }
 
 button {
-  /*
-  Challenge:
-  1. Centrally align the button on the 
-  vertical axis so it looks like the 
-  screenshot on the slide.
-  */
   align-self: center;
   background-color: #cd6858;
-  /* margin: auto; */
   border: none;
   padding: 10px 15px;
   
   color: whitesmoke;
   font-weight: 700;
   cursor: pointer;
+}
+
+.chatbox-bg {
+  display: flex;
+  width: 40px;
+  height: 40px;
+
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+
+  background-color: #cd6858;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img {
+  width:50%;
+  margin: auto;
 }
