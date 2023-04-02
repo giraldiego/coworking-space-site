@@ -59,7 +59,6 @@ h1 {
 .caption {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin: 0 25px;
 }
 
@@ -73,10 +72,19 @@ h1 {
 }
 
 button {
-  border: none;
+  /*
+  Challenge:
+  1. Centrally align the button on the 
+  vertical axis so it looks like the 
+  screenshot on the slide.
+  */
+  align-self: center;
   background-color: #cd6858;
-  color: whitesmoke;
+  /* margin: auto; */
+  border: none;
   padding: 10px 15px;
+  
+  color: whitesmoke;
   font-weight: 700;
   cursor: pointer;
 }
