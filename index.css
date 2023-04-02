@@ -16,16 +16,16 @@ header {
 }
 
 ul {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-    padding: 25px;
-    list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 25px;
+  list-style: none;
 }
 
 li {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .icon {
@@ -33,41 +33,50 @@ li {
 }
 
 .align-right {
-    margin-left: auto;
-    /* margin: auto 0 auto auto; */
+  margin-left: auto;
+  /* margin: auto 0 auto auto; */
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 400;
-    margin: 30px 25px
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
 }
 
+/* p {
+    margin: 0;
+} */
+
 .item {
-    position: relative;
+  position: relative;
 }
 
 .item-img {
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .caption {
-    margin: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 0 25px;
 }
 
 .img-banner {
-    /*
-    Challenge:
-    1. Position the image banner at the top left 
-       of the first image as per the slide. What
-       CSS do you need to add to the parent 
-       element to make this work?
-    */ 
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background-color: #cd6858;
-        color: whitesmoke;
-        padding: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
 }
-    
+
+button {
+  border: none;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
