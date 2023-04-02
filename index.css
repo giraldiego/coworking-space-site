@@ -15,7 +15,6 @@ header {
   font-weight: 700;
 }
 
-
 ul {
     display: flex;
     align-items: center;
@@ -31,6 +30,11 @@ li {
 
 .icon {
   width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
+    /* margin: auto 0 auto auto; */
 }
 
 h1 {
