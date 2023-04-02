@@ -15,24 +15,32 @@ header {
   font-weight: 700;
 }
 
-.icon {
-  width: 25px;
-}
 
 ul {
-  display: flex;
-  padding: 25px;
-  list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 25px;
+    list-style: none;
 }
 
 li {
-    margin-left: 10px;
+    cursor: pointer;
+}
+
+.icon {
+  width: 25px;
 }
 
 h1 {
     font-size: 40px;
     font-weight: 400;
     margin: 30px 25px
+}
+
+.item-img {
+    width: 100%;
 }
 
 .caption {
